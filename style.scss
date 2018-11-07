@@ -1,0 +1,46 @@
+//**VARIABLE**// 
+
+
+//**IMPORT**//
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+//**STYLE**//
+
+
+.header{
+    background-color: grey;
+    font-family: 'Indie Flower' , cursive;
+    text-align: center;
+    margin-top: -2em;
+    padding-top: 2em;
+    color: white;
+    h1{
+        font-size: 5em;
+    }
+    p{
+        font-size: 2em;
+        color: #6d0d0d;
+    }
+    h2{
+        font-size: 3em;
+    }
+}
+.navigation{
+    font-family: 'Indie Flower' , cursive;
+    padding: 0.5em;
+    font-size: 2em;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        color:red;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+
