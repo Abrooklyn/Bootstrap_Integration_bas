@@ -3,14 +3,14 @@
 
 //**IMPORT**//
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 
 //**STYLE**//
 
 
 .header{
     background-color: grey;
-    font-family: 'Indie Flower' , cursive;
+    font-family: 'oswald';
     text-align: center;
     margin-top: -2em;
     padding-top: 2em;
@@ -27,7 +27,7 @@
     }
 }
 .navigation{
-    font-family: 'Indie Flower' , cursive;
+    font-family: 'oswald';
     padding: 0.5em;
     font-size: 2em;
     ul{
@@ -42,5 +42,108 @@
         color:red;
         text-shadow: 1px 1px 1px black;
     }
+}
+
+//*ANIMATIONS*//
+
+
+
+.liste{
+    list-style: none;
+	width: 60%;
+    margin: auto;
+}
+
+li{
+    width: 150px;
+	height: 150px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 0px;
+    border-radius: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;	
+}
+
+.item1{
+    background-image: url('img/deadpool1.jpg');
+}
+.item2{
+    background-image: url('img/deadpool2.jpg');
+}
+.item3{
+    background-image: url('img/deadpool3.jpg');
+}
+.item4{
+    background-image: url('img/deadpool4.jpg');
+}
+.item5{
+    background-image: url('img/deadpool5.jpg');
+}
+.item6{
+    background-image: url('img/deadpool6.jpg');
+}
+.item7{
+    background-image: url('img/deadpool7.jpg');
+}
+.item8{
+    background-image: url('img/deadpool8.jpg');
+}
+.item9{
+    background-image: url('img/deadpool9.jpg');
+}
+.item10{
+    background-image: url('img/deadpool10.jpg');
+}
+.item11{
+    background-image: url('img/deadpool11.jpg');
+}
+.item12{
+    background-image: url('img/deadpool12.jpg');
+}
+.home{
+    background-image: url('img/Deadpool5.jpg');
+}
+.who{
+    background-image: url('img/Deadpool6.jpg');
+}
+.galleries{
+    background-image: url('img/Deadpool7.jpg');
+}
+.contacts{
+    background-image: url('img/Deadpool8.jpg');
+}
+
+.liste li a{
+    display: block;
+	width: 100%;
+	height: 100%;
+    text-decoration: none;
+}
+
+li span{
+	display: block;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    margin: 0px;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.3);
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+    position: absolute;
+	left: 0px;
+	top: 150px;
+    transition-property: top;
+    transition-duration: 1s;
+    align-items: center;
+}
+
+li:hover span{
+	top: 100px;
 }
 
